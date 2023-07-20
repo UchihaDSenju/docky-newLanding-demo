@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.accordian{
+    border-bottom: 2px solid rgb(228, 193, 128);
+}

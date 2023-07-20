@@ -5,6 +5,7 @@ import Description from './components/description'
 import Footer from './components/footer'
 
 import './App.css'
+import Faq from './components/faq'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Hero />
         <Features />
         <Description />
+        <Faq />
       </div>
       <Footer />
     </>

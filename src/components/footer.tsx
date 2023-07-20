@@ -6,7 +6,7 @@ import Logo from '../assets/docky 1.png'
 function Footer() {
   return (
     <>
-        <footer className="my-3 bg-black text-white">
+        <footer className="mt-3 bg-black text-white">
             <div className="grid grid-cols-3 mt-5 p-10">
                 <div className="logo">
                     <div><img src={Logo} alt="" /></div>
