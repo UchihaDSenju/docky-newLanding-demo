@@ -5,3 +5,7 @@
 .accordian{
     border-bottom: 2px solid rgb(228, 193, 128);
 }
+
+.social-lnk{
+    @apply flex items-center gap-2
+}

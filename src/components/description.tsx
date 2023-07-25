@@ -1,5 +1,5 @@
 import '../styles/demo.css'
-// import woman from '../assets/woman-wearing-apron-sits-desk-front-window-smiling copy 1.png'
+import woman from '../assets/woman-wearing-apron-sits-desk-front-window-smiling copy 1.png'
 function Description() {
   return (
     <>
@@ -9,7 +9,7 @@ function Description() {
               <p className="text-[#434343] text-lg mt-4">As a hospital owner, you know how challenging it can be to manage everything from patient records to scheduling staff. A comprehensive solution that simplifies and automates many of the tasks</p>
             </div>
             <div className="bg-slate-400 h-[450px] rounded-[45px]">
-              {/* <img src={woman} alt="woman" /> */}
+              <img className="rounded-[45px] h-full" src={woman} alt="woman" />
             </div>
         </div>
     </>
